@@ -14,6 +14,10 @@ router.get('/portfolio', function(req, res, next) {
   res.render('portfolio', {title: "Portfolio"});
 });
 
+router.get('/services', function(req, res, next) {
+  res.render('services', {title: "Services"});
+});
+
 router.get('/contact', function(req, res, next) {
   res.render('contact', {title: "Contact"});
 });

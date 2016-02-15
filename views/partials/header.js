@@ -25,6 +25,7 @@
       <ul class="right hide-on-med-and-down">
         <li><a class="waves-effect" href="/about" title=about>About Me</a></li>
         <li><a class="waves-effect" href="/portfolio" title="portfolio">Portfolio</a></li>
+        <li><a class="waves-effect" href="/services" title="services">Services</a></li>
         <li><a class="waves-effect" href="/contact" title="contact">Contact</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
