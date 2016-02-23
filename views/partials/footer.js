@@ -5,13 +5,13 @@
                     <h5 class="white-text">Find Me on</h5>
                         <div class="row">
                         <div class="col s1 responsive-image">
-                            <i class="fa fa-facebook-square fa-3x"></i>
+                             <a href="https://www.facebook.com/vpreet"><i class="white-text fa fa-facebook-square fa-3x"></i></a>
                         </div>
                         <div class="col s1 responsive-image">
-                            <i class="fa fa-twitter-square fa-3x"></i>
+                           <a href="https://twitter.com/VarunChadha212"><i class="white-text fa fa-twitter-square fa-3x"></i></a>
                         </div>
                         <div class="col s1 responsive-image">
-                            <i class="fa fa-github-square fa-3x"></i>
+                            <a href="https://github.com/XeroX212"><i class="white-text fa fa-github-square fa-3x"></i></a>
                         </div>
                         </div>
                     <p class="grey-text text-lighten-4"></p>
