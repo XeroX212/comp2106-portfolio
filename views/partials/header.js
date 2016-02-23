@@ -29,8 +29,9 @@
         <li><a class="waves-effect" href="/contact" title="contact">Contact</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a class="waves-effect" href="/" title="Home">About Me</a></li>
+        <li><a class="waves-effect" href="/about" title=about>About Me</a></li>
         <li><a class="waves-effect" href="/portfolio" title="portfolio">Portfolio</a></li>
+        <li><a class="waves-effect" href="/services" title="services">Services</a></li>
         <li><a class="waves-effect" href="/contact" title="contact">Contact</a></li>
       </ul>
     </div>

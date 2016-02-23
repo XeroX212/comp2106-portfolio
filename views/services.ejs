@@ -1,4 +1,48 @@
 <%- include partials/header.js %>
-    <h1><%= title %></h1>
-    <p></p>
-<%- include partials/footer.js %>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <h1 class="header center teal-text text-lighten-2"><%= title %></h1>
+            </div>
+            <div class="row center">
+                <h5 class="header col s12 light">I am driven by perfectionism and the urge to create high quality Websites and
+provide premium and dedicated support to our customers.</h5>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/home.png" alt="coffee"></div>
+    </div>
+<!-- Main code for the services page in here i used the container class to make it look good-->
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><img src="images/html.png" alt="css" height="100px" width="100px"></h2>
+                        <h5 class="center">HTML5</h5>
+
+                        <p class="light">HTML5 is a markup language used for structuring and presenting content on the World Wide Web. Five means that this is the fifth revision of the HTML standard since the inception of the World Wide Web.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><img src="images/css.png" alt="css" height="100px" width="100px"></h2>
+                        <h5 class="center">CSS3</h5>
+
+                        <p class="light">CSS3 is the latest evolution of the Cascading Style Sheets language. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><img src="images/js.png" alt="css" height="100px" width="100px"></h2>
+                        <h5 class="center">JavaScript</h5>
+
+                        <p class="light">JavaScript is the programming language of HTML and the Web. Programming makes computers do what you want them to do.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <%- include partials/footer.js %>

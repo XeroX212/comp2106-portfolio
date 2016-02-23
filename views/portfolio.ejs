@@ -1,4 +1,44 @@
 <%- include partials/header.js %>
-<h1><%= title %></h1>
-<p>Welcome to <%= title %> page</p>
-<%- include partials/footer.js %>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <h1 class="header center teal-text text-lighten-2"><%= title %></h1>
+            </div>
+            <div class="row center">
+                <h5 class="header col s12 light">All of my projects are here. Hope there will be more soon.</h5>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/home.png" alt="coffee"></div>
+    </div>
+<!--All the images align properly in this section and they are responsive-->
+    <div class="container">
+        <div class="section">
+            <div class="row">
+            <div class="col s6">
+                <h3 class="center-align"><a href="http://loanapprovalcentre.com/">Loan Approvals</a></h3>
+                <img class="materialboxed responsive-img" width="650" src="images/loan.png">
+            </div>
+             <div class="col s6">
+                <h3 class="center-align"><a href="https://www.bodystream.ca/">Body Stream</a></h3>
+                <img class="materialboxed responsive-img" width="650" src="images/body.png">
+            </div>
+             <div class="col s6">
+                <h3 class="center-align"><a href="http://www.miguydigital.ca/autochoice/">Auto Choice</a></h3>
+                <img class="materialboxed responsive-img" width="650" src="images/auto.png">
+            </div>
+             <div class="col s6">
+                <h3 class="center-align"><a href="https://www.saleevent.ca/">Sales Event</a></h3>
+                <img class="materialboxed responsive-img" width="650" src="images/sales.png">
+            </div>
+             <div class="col s6">
+                 <h3 class="center-align"><a href="https://www.perfectpainter.ca/">Perfect Painters</a></h3>
+                <img class="materialboxed responsive-img" width="650" src="images/perfect.png">
+            </div>
+             <div class="col s6">
+                 <h3 class="center-align"><a href="https://www.wearatec.com/">Wearatec</a></h3>
+                <img class="materialboxed responsive-img" width="650" src="images/wearatec.png">
+            </div>
+            </div>
+        </div>
+    </div>
+    <%- include partials/footer.js %>

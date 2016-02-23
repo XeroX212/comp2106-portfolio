@@ -1,4 +1,38 @@
 <%- include partials/header.js %>
-<h1><%= title %></h1>
-<p>Welcome to <%= title %> page</p>
-<%- include partials/footer.js %>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <h1 class="header center teal-text text-lighten-2"><%= title %></h1>
+            </div>
+            <div class="row center">
+                <h5 class="header col s12 light">Please fill the form below to contact me.</h5>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/home.png" alt="coffee"></div>
+    </div>
+    <br/>
+    <div class="row">
+        <!--   Contact form start here     -->
+        <form class="col s12" action="contact.php" method="post">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="last_name" type="text" class="validate" name="cf_name">
+                    <label for="last_name">First Name</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input id="last_name" type="text" class="validate" name="cf_email">
+                    <label for="last_name">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="icon_prefix2" class="materialize-textarea" name="cf_message"></textarea>
+                    <label for="icon_prefix2">Message</label>
+                </div>
+                <input class="waves-effect waves-light btn" type="submit" value="Send">
+                <input class="waves-effect waves-light btn" type="reset" value="Clear">
+            </div>
+        </form>
+    </div>
+    <%- include partials/footer.js %>
